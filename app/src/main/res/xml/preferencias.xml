@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Seccion de Datos">
+        <EditTextPreference
+            android:key="correoKey"
+            android:title="Correo"
+            android:summary="Almacenar el texto con el correo"
+            android:defaultValue="Sin correo">
+        </EditTextPreference>
+
+        <EditTextPreference
+            android:key="claveKey"
+            android:title="Clave"
+            android:summary="Almacenar el texto con la clave"
+            android:defaultValue="Sin clave">
+        </EditTextPreference>
+
+        <CheckBoxPreference
+            android:key="recordarCorreo"
+            android:title="Recordad Correo">
+        </CheckBoxPreference>
+
+        <CheckBoxPreference
+            android:key="recordarClave"
+            android:title="Recordad Clave">
+        </CheckBoxPreference>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Sesion">
+        <CheckBoxPreference
+            android:key="Sesion"
+            android:title="Guardar  Sesion"
+            android:cursorVisible="true"
+            android:textColor="@color/Blanco">
+
+        </CheckBoxPreference>
+
+
+    </PreferenceCategory>
+</PreferenceScreen>

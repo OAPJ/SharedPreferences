@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/etCorreo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:background="@color/Blanco"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:textSize="20dp"
+        android:hint="Correo"
+        android:textColor="@color/Gris2"
+        android:textColorHint="@color/Gris2"/>
+
+    <EditText
+        android:id="@+id/etClave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:background="@color/Blanco"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:hint="Clave"
+        android:textColor="@color/Gris2"
+        android:textColorHint="@color/Gris2"/>
+
+    <Button
+        android:id="@+id/btLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="@string/login"
+        android:textSize="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:background="@color/Blanco"
+        />
+
+    <Button
+        android:id="@+id/btRegistrarse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="@string/registrarse"
+        android:textSize="20dp"
+        android:textColor="@color/Blanco"
+        android:background="@color/colorPrimary"
+        />
+
+</LinearLayout>
